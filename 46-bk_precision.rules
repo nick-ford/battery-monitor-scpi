@@ -1,0 +1,2 @@
+SUBSYSTEMS=="usb", KERNEL=="ttyUSB*", ATTRS{idProduct}=="ea60", ATTRS{idVendor}=="10c4", SYMLINK+="ttyUSB.BK5491B"
+# SUBSYSTEMS=="usb", KERNEL=="ttyUSB*", ATTRS{interface}=="5491B%20%20Multimeter", ATTRS{idProduct}=="ea60", ATTRS{idVendor}=="10c4", SYMLINK+="ttyUSB.BK5491B"
